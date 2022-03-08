@@ -4,7 +4,7 @@ import numpy as np
 import streamlit.config
 
 st.markdown(f"`dataFrameSerialization={streamlit.config.get_option('global.dataFrameSerialization')}`")
-st.markdown("`add_rows coalescing=enabled`")
+st.markdown("`add_rows coalescing=DISABLED`")
 
 progress_bar = st.sidebar.progress(0)
 status_text = st.sidebar.empty()
